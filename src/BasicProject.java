@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
@@ -16,6 +17,7 @@ public class BasicProject {
 	
 //	hala wallah
 	WebDriver driver = new ChromeDriver();
+	WebDriver driver2 = new EdgeDriver();
 
 	String mywebsite = "https://automationteststore.com/";
 	String[] firstname = { "faris", "omar", "saleem", "zaid", "azooz", "dalia", "bayan", "rana" };
