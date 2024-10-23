@@ -20,7 +20,7 @@ public class BasicProject {
 	WebDriver driver2 = new EdgeDriver();
 
 	String mywebsite = "https://automationteststore.com/";
-	String[] firstname = { "faris", "omar", "saleem", "zaid", "azooz", "dalia", "bayan", "rana" };
+	String[] firstname = { "faris", "omar", "saleem", "zaid", "azooz", "dalia", "bayan", "rana" , "majd"};
 	String[] LastName = { "abulawi", "ahmad", "alqatou", "issa", "waheeb", "alabbas" };
 
 	Random rand = new Random();
